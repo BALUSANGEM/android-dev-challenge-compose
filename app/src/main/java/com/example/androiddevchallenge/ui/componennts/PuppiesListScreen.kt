@@ -1,9 +1,9 @@
 package com.example.androiddevchallenge.ui.componennts
 
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.Card
 import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
@@ -35,14 +35,14 @@ fun PuppiesListScreen(viewModel: PuppyViewModel, navController: NavHostControlle
 
 @Composable
 fun PuppiesList(puppies: List<PuppyData>, onClick: (PuppyData) -> Unit) {
-    Column{
-        puppies.forEach {
+    LazyColumn{
+        items(puppies.size) { index ->
             Card(
-                modifier = Modifier.clickable {onClick(it)},
+                modifier = Modifier.clickable {onClick(puppies[index])},
             ){
-                PuppyListItem(puppyDetails = it)
+                PuppyListItem(puppyDetails = puppies[index])
             }
-        Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(8.dp))
         }
     }
 }
