@@ -7,109 +7,109 @@ object PuppiesRepository {
     val puppiesList = listOf(
         PuppyData(
             1,
-            "First Puppy",
-            "Breed1",
-            R.mipmap.one,
-            "Male",
-            "This is the description for first puppy"
+            "Abby",
+            "Siberian Husky",
+            R.drawable.one,
+            "Female",
+            "The only thing better than one adorable husky is an entire sled team of 'em. Just be prepared for their outsized energy."
         ), PuppyData(
             2,
-            "Second puppy",
-            "Breed2",
-            R.mipmap.two,
-            "Female",
-            "This is the description for second puppy"
+            "Abe",
+            "Pembroke Welsh Corgi",
+            R.drawable.two,
+            "Male",
+            "Trust the Queen of England to have an excellent taste in dogs. Elizabeth II's love for corgis goes unmatched — she's had over 30 of them in her lifetime!"
         ), PuppyData(
             3,
-            "First Puppy",
-            "Breed1",
-            R.mipmap.three,
-            "Male",
-            "This is the description for first puppy"
+            "Baby",
+            "Australian Shepherd",
+            R.drawable.three,
+            "Female",
+            "Beauty and brains, Aussies have got it all. These intelligent pups like having a job to do, so the people-pleasers pick up new tricks right away."
         ), PuppyData(
             4,
-            "Second puppy",
-            "Breed2",
-            R.mipmap.four,
-            "Female",
-            "This is the description for second puppy"
+            "Baja",
+            "American Staffordshire Terrier",
+            R.drawable.four,
+            "Male",
+            "Am Staffs are just one of the breeds popularly called pit bulls, but don't let stereotypes fool you. These good-natured and smart pups love being a part of the family."
         ), PuppyData(
             5,
-            "First Puppy",
-            "Breed1",
-            R.mipmap.five,
-            "Male",
-            "This is the description for first puppy"
+            "Bella",
+            "Beagle",
+            R.drawable.five,
+            "Female",
+            "Snoopy may be the world's most popular beagle, but the three-dimensional ones are just as charming. The lovable hounds like to follow their noses, occasionally right into trouble."
         ), PuppyData(
             6,
-            "Second puppy",
-            "Breed2",
-            R.mipmap.six,
-            "Female",
-            "This is the description for second puppy"
+            "Baxter",
+            "Shetland Sheepdog",
+            R.drawable.six,
+            "Male",
+            "Shelties love kids and cuddles. And with that face, what more could you need?"
         ), PuppyData(
             7,
-            "First Puppy",
-            "Breed1",
-            R.mipmap.seven,
-            "Male",
-            "This is the description for first puppy"
+            "Carly",
+            "Golden Retriever",
+            R.drawable.seven,
+            "Female",
+            "They're one of the most popular dogs in the country for a reason. Goldens look photo-ready no matter what."
         ), PuppyData(
             8,
-            "Second puppy",
-            "Breed2",
-            R.mipmap.eight,
-            "Female",
-            "This is the description for second puppy"
+            "Boomer",
+            "Yorkshire Terrier",
+            R.drawable.eight,
+            "Male",
+            "Yorkies started off working in Victorian factories, but their gorgeous (and hypoallergenic!) fur soon earned them a reputation in elite circles as an adorable companion."
         ), PuppyData(
             9,
-            "First Puppy",
-            "Breed1",
-            R.mipmap.nine,
-            "Male",
-            "This is the description for first puppy"
+            "Daisy",
+            "French Bulldog",
+            R.drawable.nine,
+            "Female",
+            "It's no surprise city dwellers spot Frenchies on almost every block. The low-energy, big-eared pups are probably the cutest roommates you could have. Plus, they never leave dishes in the sink."
         ), PuppyData(
             10,
-            "Second puppy",
-            "Breed2",
-            R.mipmap.ten,
-            "Female",
-            "This is the description for second puppy"
+            "Chico",
+            "Dachshund",
+            R.drawable.ten,
+            "Male",
+            "Smooth, wirehaired or longhaired, there's a type of dachshund for everybody. They even come in two different sizes: standard and miniature."
         ), PuppyData(
             11,
-            "First Puppy",
-            "Breed1",
-            R.mipmap.eleven,
-            "Male",
-            "This is the description for first puppy"
+            "Delia",
+            "English Setter",
+            R.drawable.eleven,
+            "Female",
+            "Called the \"gentleman of the dog world,\" the English setter is known for both its style and its strength. Just don't describe their coats as spotted. The speckled pattern is known as \"belton.\""
         ), PuppyData(
             12,
-            "Second puppy",
-            "Breed2",
-            R.mipmap.twelve,
-            "Female",
-            "This is the description for second puppy"
+            "Cooper",
+            "Bernese Mountain Dog",
+            R.drawable.twelve,
+            "Male",
+            "Picture giant, friendly fluff-balls and you've got Bernese Mountain Dogs down to a T. Swiss farmers originally raised them as good-natured helpers, so they're super strong."
         ), PuppyData(
             13,
-            "First Puppy",
-            "Breed1",
-            R.mipmap.thirteen,
-            "Male",
-            "This is the description for first puppy"
+            "Dora",
+            "Dalmatian",
+            R.drawable.thirteen,
+            "Female",
+            "Whether they're in fire stations or Disney movies, Dalmatians' distinctive coats win hearts wherever they go. The pups only develop the spots later in life though; the litters start out completely white."
         ), PuppyData(
             14,
-            "Second puppy",
-            "Breed2",
-            R.mipmap.fourteen,
-            "Female",
-            "This is the description for second puppy"
+            "Dash",
+            "Labrador Retriever",
+            R.drawable.fourteen,
+            "Male",
+            "It's clearly impossible to get tired of those cute faces. Labs have been the number one dog breed in America for more than 25 years in a row!"
         ), PuppyData(
             15,
-            "First Puppy",
-            "Breed1",
-            R.mipmap.fifteen,
-            "Male",
-            "This is the description for first puppy"
+            "Eden",
+            "Cairn Terrier",
+            R.drawable.fifteen,
+            "Female",
+            "If you've ever seen the Wizard of Oz, you'll know these little guys are the sweetest sidekicks around. An abandoned Cairn terrier named Terry went on to become one of the biggest canine movie stars in history."
         )
     )
 }

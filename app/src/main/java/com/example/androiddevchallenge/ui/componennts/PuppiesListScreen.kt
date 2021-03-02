@@ -12,7 +12,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.navigate
-import com.example.androiddevchallenge.AppBar
 import com.example.androiddevchallenge.DETAILS_PAGE
 import com.example.androiddevchallenge.models.PuppyData
 import com.example.androiddevchallenge.viewmodel.PuppyViewModel

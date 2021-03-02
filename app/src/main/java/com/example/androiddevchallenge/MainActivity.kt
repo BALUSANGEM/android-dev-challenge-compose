@@ -18,16 +18,10 @@ package com.example.androiddevchallenge
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.wrapContentSize
-import androidx.compose.material.*
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.androiddevchallenge.navigation.MainNavigationControl
 import com.example.androiddevchallenge.ui.theme.MyTheme
@@ -49,41 +43,6 @@ fun MyApp() {
         val navController = rememberNavController()
         MainNavigationControl(navController)
     }
-}
-
-@Composable
-fun AppBar(
-    topAppBarText: String,
-    navController: NavHostController,
-    showBackButton:Boolean = false
-) {
-    TopAppBar(
-        title = {
-            Text(
-                text = topAppBarText,
-                textAlign = TextAlign.Center,
-                modifier = if (!showBackButton) {
-                    Modifier
-                        .fillMaxSize()
-                        .wrapContentSize(Alignment.Center)
-                } else {
-                    Modifier
-                }
-            )
-        },
-        navigationIcon = {
-            if (showBackButton) {
-                IconButton(onClick = {
-                    navController.popBackStack()
-                }) {
-                    Icon(
-                        painter = painterResource(id = R.drawable.ic_baseline_arrow_back_24,),
-                        "back"
-                    )
-                }
-            }
-                         },
-    )
 }
 
 @Preview("Light Theme", widthDp = 360, heightDp = 640)

@@ -46,7 +46,7 @@ fun PuppyListItem(
        Column(Modifier.fillMaxWidth()) {
            Text(text = puppyDetails.name, style= MaterialTheme.typography.h6)
            Text(text = puppyDetails.breed, style= MaterialTheme.typography.body1)
-           Text(text = puppyDetails.gender, style= MaterialTheme.typography.body1)
+           Text(text = puppyDetails.gender, style= MaterialTheme.typography.body2)
        }
     }
 }
